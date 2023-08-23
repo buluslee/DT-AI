@@ -65,7 +65,7 @@
 
 
 
-**一、Anaconda常用指令**
+## 一、Anaconda常用指令
 
 打开Anaconda Prompt终端，在终端中运行如下代码：
 
@@ -141,7 +141,7 @@
 
     使用如上指令卸载名为dill的软件包。
 
-**二、Anaconda更换默认下载源（可选）：**
+## 二、Anaconda更换默认下载源（可选）：
 
 1. 打开Anaconda Prompt，然后输入如下命令添加清华源：
 
@@ -191,4 +191,79 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
    ```
    conda config --remove-key channels
    ```
+   
+## 三、创建环境以及配置 PyTorch
 
+### 1. 创建 Python 3.9 环境
+
+打开 Anaconda Prompt，创建一个名为 "test" 的 Python 3.9 环境，输入以下命令：
+
+```shell
+conda create -n test python=3.9
+```
+
+![image-20230823205027971](./img/image-20230823205027971.png)
+
+然后输入 "y"。
+
+![image-20230823205035448](./img/image-20230823205035448.png)
+
+至此，已经完成了环境的创建。
+
+![image-20230823205041887](./img/image-20230823205041887.png)
+
+### 2. 在 "test" 环境中安装 PyTorch
+
+首先，激活名为 "test" 的环境，输入以下命令：
+
+```shell
+conda activate test
+```
+
+![image-20230823205100114](./img/image-20230823205100114.png)
+
+然后，使用以下命令查看 CUDA 版本（非 NVIDIA 显卡用户请安装 CPU 版本的 PyTorch，无需执行此命令）：
+
+```shell
+nvidia-smi
+```
+
+![image-20230823205136006](./img/image-20230823205136006.png)
+
+若是 NVIDIA 显卡用户，且输入上述命令后仍报错，可以尝试将显卡驱动更新或找到 "nvidia-smi.exe" 并将其路径添加到系统环境变量的 "Path" 中。
+
+接下来，进入 PyTorch 官方安装网址，选择以下安装选项：
+
+- 第二行：根据自己的电脑版本选择
+- 第三行：选择通过 pip 或 conda 安装（均可）
+- 第五行：根据自己的 CUDA 版本来选择对应的 PyTorch 版本（非 NVIDIA 则选择 CPU 版本）
+- ![image-20230823205223877](./img/image-20230823205223877.png)
+
+例如，如果 "nvidia-smi" 显示的 CUDA 版本为 12.0，则可以选择下载 CUDA 小于等于 12.0 的 PyTorch 版本。我这里选择的是 CUDA 11.7，复制以下命令：
+
+```shell
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+```
+
+或者点击 "previous versions of PyTorch" 选择之前的 PyTorch 版本。
+
+![image-20230823205325373](./img/image-20230823205325373.png)
+
+**注意：** 若下载失败，可以尝试更换网络，或多次重复执行命令，或者尝试 Anaconda 安装教程中的换源操作。
+
+### 3. 安装完成之后测试
+
+- 打开 Anaconda Prompt
+- 激活刚刚创建的环境：`conda activate test`
+- 输入 `python` 进入 Python 环境
+- 输入 `import torch`，如果没有报错，则安装成功。
+
+如果安装的是 GPU 版本的 PyTorch，您还可以通过输入以下命令检查是否安装成功：
+
+```python
+import torch.cuda.is_available()
+```
+
+如果返回 `True`，代表成功。若需要退出 Python 环境，请输入 `exit()`。
+
+![image-20230823205336571](./img/image-20230823205336571.png)
