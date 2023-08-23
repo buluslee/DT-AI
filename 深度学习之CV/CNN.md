@@ -4,10 +4,9 @@
 
 我们熟知的神经网络结构如下：
 
-```
+
 ![image](https://github.com/buluslee/DT-AI/assets/93359778/c3c53c3a-09aa-462f-8864-a52a1ef0dcd9)
 
-```
 
 那么，卷积神经网络又是什么？它与普通神经网络有什么关系呢？
 
