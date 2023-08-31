@@ -22,7 +22,7 @@ CNN的基本结构由以下几个关键层组成：
 
 示意图如下：
 
-![卷积操作示意图](convolution_operation_image_link)
+![卷积操作示意图](![image]([https://github.com/buluslee/DT-AI/assets/93359778/48879572-2d89-4fbc-ac5e-5f9084d90275](https://pic3.zhimg.com/v2-317e68dfbeb20b9d3cf48f74cbf590c2_b.webp)))
 
 2. **激活函数层**
 
