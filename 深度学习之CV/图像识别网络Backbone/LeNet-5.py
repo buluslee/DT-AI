@@ -138,4 +138,4 @@ plt.title('Accuracy')
 plt.show()
 
 print(model)
-torch.save(model, './models/model-mnist.pth') #保存模型
+torch.save(model, './model-mnist.pth') #保存模型
