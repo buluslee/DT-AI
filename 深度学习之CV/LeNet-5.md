@@ -28,7 +28,9 @@ LeNet-5 网络一共包括了7层（不包括输入层），命名为 C1、S2、
 
 - **S2 层**：第一个池化层，使用6个大小为2x2的卷积核，padding=0，stride=2 进行池化操作，得到6个大小为14x14的特征图。 ![S2 层](https://github.com/buluslee/DT-AI/assets/93359778/372d615a-a1c4-4675-b08d-92961cb7e72f)
 
-     S2 层其实相当于降采样层+激活层。先是降采样，然后激活函数 sigmoid 非线性输出。先对 C1 层 2x2 的视野求和，然后进入激活函数，即： ![sigmode激活函数](https://github.com/buluslee/DT-AI/assets/93359778/16a27f09-bf7f-42fb-b5f5-2361161747bb)
+     S2 层其实相当于降采样层+激活层。先是降采样，然后激活函数 sigmoid 非线性输出。先对 C1 层 2x2 的视野求和，然后进入激活函数，即：
+
+  ![sigmode激活函数](https://github.com/buluslee/DT-AI/assets/93359778/16a27f09-bf7f-42fb-b5f5-2361161747bb)
 
 
 - **C3 层**：第二个卷积层，使用16个大小为5x5xn（不同组的输入）的卷积核，padding=0，stride=1 进行卷积操作，得到16个大小为10x10的特征图。
