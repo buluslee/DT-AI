@@ -22,7 +22,7 @@ CNN的基本结构由以下几个关键层组成：
 
 示意图如下：
 
-![卷积操作示意图](![image]([https://github.com/buluslee/DT-AI/assets/93359778/48879572-2d89-4fbc-ac5e-5f9084d90275](https://pic3.zhimg.com/v2-317e68dfbeb20b9d3cf48f74cbf590c2_b.webp)))
+![卷积操作示意图](https://pic3.zhimg.com/v2-317e68dfbeb20b9d3cf48f74cbf590c2_b.webp)
 
 2. **激活函数层**
 
@@ -30,7 +30,8 @@ CNN的基本结构由以下几个关键层组成：
 
 示意图如下：
 
-![ReLU激活函数图](relu_function_image_link)
+![ReLU激活函数图](https://github.com/buluslee/DT-AI/assets/93359778/1c1feba9-41c0-49c4-828c-1458688b2512)
+
 
 3. **池化层**
 
@@ -38,7 +39,8 @@ CNN的基本结构由以下几个关键层组成：
 
 示意图如下：
 
-![最大池化示意图](max_pooling_operation_image_link)
+![最大池化示意图](https://github.com/buluslee/DT-AI/assets/93359778/1646daba-d150-4eb0-9bd0-1b707dc72330)
+
 
 4. **全连接层**
 
