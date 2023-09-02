@@ -1,9 +1,3 @@
-"""
-    @ jetou
-    @ cart decision_tree
-    @ date 2017 10 29
-
-"""
 import numpy as np
 
 class tree:
