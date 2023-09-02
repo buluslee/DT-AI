@@ -1,10 +1,3 @@
-"""
-    @ jetou
-    @ logistic_regression binary
-    @ date 2017 11 03
-
-"""
-
 import numpy as np
 import random
 import math
