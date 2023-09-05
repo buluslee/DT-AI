@@ -94,6 +94,8 @@ FC7层的流程也包括卷积、ReLU激活、Dropout。
 
 整个AlexNet网络包含的神经元个数为：
 
+![image](https://github.com/buluslee/DT-AI/assets/93359778/964406ba-6242-4521-8a3d-0333cb844df8)
+
 ```
 290,400 + 186,624 + 64,896 + 64,896 + 43,264 + 4,096 + 4,096 + 1,000 = 659,272
 ```
@@ -104,7 +106,7 @@ FC7层的流程也包括卷积、ReLU激活、Dropout。
 
 整个AlexNet网络包含的参数数量为：
 
-
+![image](https://github.com/buluslee/DT-AI/assets/93359778/ba1aeb6b-b456-4112-8ccf-a3f1fdb878d4)
 
 ```
 34,944 + 307,456 + 885,120 + 663,936 + 442,624 + 37,752,832 + 16,781,312 + 4,096,000 = 60,964,224
@@ -131,6 +133,8 @@ FLOPS（即“每秒浮点运算次数”，“每秒峰值速度”），是“
 - 一个EFLOPS（exaFLOPS）等于每秒一百京（=10^18）次的浮点运算。
 
 在AlexNet网络中，对于卷积层，FLOPS=num_params∗(H∗W)，其中num_params为参数数量，H*W为卷积层的高和宽。对于全连接层，FLOPS=num_params。
+
+
 
 # 3. AlexNet创新之处
 
