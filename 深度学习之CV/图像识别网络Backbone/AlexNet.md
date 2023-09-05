@@ -134,6 +134,7 @@ FLOPS（即“每秒浮点运算次数”，“每秒峰值速度”），是“
 
 在AlexNet网络中，对于卷积层，FLOPS=num_params∗(H∗W)，其中num_params为参数数量，H*W为卷积层的高和宽。对于全连接层，FLOPS=num_params。
 
+![image](https://github.com/buluslee/DT-AI/assets/93359778/7ed91d8f-757b-44fd-a6dd-fafe4c2e45d0)
 
 
 # 3. AlexNet创新之处
