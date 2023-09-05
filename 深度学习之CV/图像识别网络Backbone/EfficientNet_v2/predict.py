@@ -49,7 +49,3 @@ def main(img):
     return class_indict[str(predict_cla)], predict[predict_cla].item()
     # plt.show()
 
-
-# img = Image.open('D:\\python-code\diantou\\flower\\val\daisy\\169371301_d9b91a2a42.jpg')
-# x = main(img)
-# print(x)
