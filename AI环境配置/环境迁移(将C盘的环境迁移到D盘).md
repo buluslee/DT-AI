@@ -1,6 +1,8 @@
 **1. 迁移虚拟环境**
 
-首先进入`C:\Users\<用户名>\.conda`文件夹，里面有3个文件，进入`envs`文件夹，复制里面的文件夹，然后找到你安装Anaconda的盘，比如`D:\Anaconda`，然后进入找到`D:\Anaconda\envs`文件夹。然后把你复制的文件夹粘贴进去，然后看看`D:\Anaconda`文件夹有没有`pkgs`包，没有就去`C盘.conda`文件复制`pkgs`包过去，如果Anaconda有`pkgs`包就去`C盘.conda`文件夹进入到`pkgs`，然后复制所有的文件，然后粘贴在`D:\Anaconda`的`pkgs`包，全部替换。注:`.conda`的txt文件(`environment.txt`)也复制到`D:\Anaconda`目录下，并打开`environments`把里面的路径换成`D:\Anaconda`中的虚拟环境路径，比如`D:\Anaconda\envs\pytorch_gpu`，同时`C:\`盘下的`environments`中路径也需要更改为`D:\Anaconda\envs\pytorch_gpu`(二个txt文件一致)。
+ - 首先进入`C:\Users\<用户名>\.conda`文件夹，里面有3个文件，进入`envs`文件夹，复制里面的文件夹，然后找到你安装Anaconda的盘，比如`D:\Anaconda`，然后进入找到`D:\Anaconda\envs`文件夹。然后把你复制的文件夹粘贴进去，
+ - 然后看看`D:\Anaconda`文件夹有没有`pkgs`包，没有就去`C盘.conda`文件复制`pkgs`包过去，如果Anaconda有`pkgs`包就去`C盘.conda`文件夹进入到`pkgs`，然后复制所有的文件，然后粘贴在`D:\Anaconda`的`pkgs`包，全部替换。
+ - 注:`.conda`的txt文件(`environment.txt`)也复制到`D:\Anaconda`目录下，并打开`environments`把里面的路径换成`D:\Anaconda`中的虚拟环境路径，比如`D:\Anaconda\envs\pytorch_gpu`，同时`C:\`盘下的`environments`中路径也需要更改为`D:\Anaconda\envs\pytorch_gpu`(二个txt文件一致)。
 
 **2. 设置环境变量**
 
