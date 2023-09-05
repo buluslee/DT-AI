@@ -32,7 +32,7 @@ def main(img):
     # create model
     net = efficientnetv2(num_classes=5)
     # load model weights
-    model_weight_path = "EfficientNet_v2\efficientnetv2.pth"
+    model_weight_path = r".\efficientnetv2.pth"
     net.load_state_dict(torch.load(model_weight_path))  # 载入网络模型
     net.eval()  # 关闭dropout方法
 
