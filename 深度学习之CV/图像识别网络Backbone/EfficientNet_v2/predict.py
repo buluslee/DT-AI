@@ -16,9 +16,6 @@ def main(img):
          transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
 
     # load image
-    # img = Image.open(r"C:\Users\qianc\Desktop\学习\vgg\flower\val\dandelion\10919961_0af657c4e8.jpg")  # 验证太阳花
-    # # # img = Image.open("./roses.jpg")     #验证玫瑰花
-    # plt.imshow(img)
     # [N, C, H, W]
     img = data_transform(img)
     # expand batch dimension
@@ -35,7 +32,7 @@ def main(img):
     # create model
     net = efficientnetv2(num_classes=5)
     # load model weights
-    model_weight_path = "MobileNet_v3\mobilenet_v3_small.pth"
+    model_weight_path = "EfficientNet_v2\efficientnetv2.pth"
     net.load_state_dict(torch.load(model_weight_path))  # 载入网络模型
     net.eval()  # 关闭dropout方法
 
@@ -47,5 +44,4 @@ def main(img):
         predict = torch.softmax(output, dim=0)
         predict_cla = torch.argmax(predict).numpy()  # 获取最大索引
     return class_indict[str(predict_cla)], predict[predict_cla].item()
-    # plt.show()
 
