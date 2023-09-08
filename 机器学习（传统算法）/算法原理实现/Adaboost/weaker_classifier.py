@@ -1,9 +1,3 @@
-"""
-    @ jetou
-    @ weaker_classifier algorithm
-    @ date 2017 11 19
-
-"""
 import numpy as np
 class weake_classifier:
     def __init__(self, feature, label, W = None):
