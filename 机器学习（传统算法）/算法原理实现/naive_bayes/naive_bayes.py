@@ -1,10 +1,3 @@
-"""
-    @ jetou
-    @ cart decision_tree
-    @ date 2017 10 31
-
-"""
-
 import numpy as np
 
 class naive_bayes:
