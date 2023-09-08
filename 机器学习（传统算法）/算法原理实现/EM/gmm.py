@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-
-"""
-    @ jetou
-    @ Gaussian misture model
-    @ date 2017 11 27
-
-"""
 # Reference http://blog.csdn.net/jinping_shi/article/details/59613054
-
 
 import numpy as np
 import math
