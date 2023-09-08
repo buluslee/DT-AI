@@ -1,9 +1,3 @@
-"""
-    @ jetou
-    @ perceptron Duality
-    @ date 2017 11 01
-
-"""
 import numpy as np
 
 class perceptron:
