@@ -1,9 +1,3 @@
-"""
-    @ jetou
-    @ AdaBoost algorithm
-    @ date 2017 11 19
-
-"""
 from weaker_classifier import *
 import math
 
