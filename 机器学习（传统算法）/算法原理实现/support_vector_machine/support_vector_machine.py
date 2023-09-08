@@ -1,11 +1,3 @@
-"""
-    @ jetou
-    @ support_vector_machine dual algorithm
-    @ date 2017 11 12
-
-"""
-
-
 import numpy as np
 from sympy import *
 
