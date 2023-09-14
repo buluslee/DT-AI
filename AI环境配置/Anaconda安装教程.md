@@ -261,7 +261,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 如果安装的是 GPU 版本的 PyTorch，您还可以通过输入以下命令检查是否安装成功：
 
 ```python
-import torch.cuda.is_available()
+torch.cuda.is_available()
 ```
 
 如果返回 `True`，代表成功。若需要退出 Python 环境，请输入 `exit()`。
