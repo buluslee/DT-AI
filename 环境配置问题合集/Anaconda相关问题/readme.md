@@ -33,7 +33,7 @@ pip uninstall pyzmq
 pip install pyzmq==19.0.2
 
 ## 4.anaconda中无法创建新环境，显示HTTP 000
-<img width="416" alt="image" src="https://github.com/buluslee/DT-AI/assets/142234262/ac2deddf-1675-4d88-a9b4-6f959c5b08f0">
+<img width="705" alt="67a778ed892e15fc598e4af316a83e7" src="https://github.com/buluslee/DT-AI/assets/142234262/8ab67a82-ac44-48c1-b7f2-04d7113c6839">
 
 ## 解决办法
 网络原因，更换网络重新创建
