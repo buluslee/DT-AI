@@ -57,3 +57,11 @@ pip install -U jupyter 和 pip install -U jinja2
 若打开了代理请关掉代理，若无打开代理仍然报错请在anaconda环境配置教程中找到pip换源教程进行换源后重新安装(或者进行更换网络，大概率是因为网速太慢连接超时报错)
 
 若换源后还是报错，请在包后面打一个空格加上--default-timeout=600，例如pip install ipykernel --default-timeout=600
+
+## 7.jupyter选择python解释器的时候找不到在anaconda中创建的环境
+<img width="416" alt="image" src="https://github.com/buluslee/DT-AI/assets/142234262/49448e15-c19b-4e28-9d33-c569c78fa371">
+
+## 解决办法
+先激活环境然后conda install nb_conda_kernels,完成后重启jupyter
+
+或者先激活环境，然后pip install ipykernel，然后输入python -m ipykernel install --user --name env_name ，env_name就是你自己的环境名
