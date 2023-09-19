@@ -17,3 +17,12 @@
 
 ## 解决办法
 请查看vscode安装及使用教程里面
+
+## 4.vscode安装remote development插件显示不兼容
+<img width="416" alt="image" src="https://github.com/buluslee/DT-AI/assets/142234262/4078e743-3106-4b60-8c72-9db84d6e4a1e">
+
+## 解决办法
+更新vscode到最新版本，官网重下最新版本覆盖或者设置里面找到更新
+
+
+
