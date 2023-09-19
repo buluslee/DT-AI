@@ -31,3 +31,29 @@ D:\Anaconda\Library\bin
 pip uninstall pyzmq
 
 pip install pyzmq==19.0.2
+
+## 4.anaconda中无法创建新环境，显示HTTP 000
+<img width="416" alt="image" src="https://github.com/buluslee/DT-AI/assets/142234262/ac2deddf-1675-4d88-a9b4-6f959c5b08f0">
+
+## 解决办法
+网络原因，更换网络重新创建
+
+## 5.jupyter打开后显示500且报错代码如下
+<img width="139" alt="image" src="https://github.com/buluslee/DT-AI/assets/142234262/c447ef0a-cf64-46c8-98cf-c5d630d61232">
+
+<img width="449" alt="image" src="https://github.com/buluslee/DT-AI/assets/142234262/7d22b6e8-dd07-489b-aa33-9df173ae6459">
+
+## 解决办法
+输入pip uninstall nbconvert以及pip install nbconvert
+
+或者可以考虑更新Jupyter Notebook和Jinja2库：
+
+pip install -U jupyter 和 pip install -U jinja2
+
+## 6.anaconda中pip install时报错
+<img width="568" alt="90487b55c5ce49d2a7172c2fccb1ec5" src="https://github.com/buluslee/DT-AI/assets/142234262/2f74819b-4a56-4dd6-b025-74593313c37a">
+
+## 解决办法
+若打开了代理请关掉代理，若无打开代理仍然报错请在anaconda环境配置教程中找到pip换源教程进行换源后重新安装(或者进行更换网络，大概率是因为网速太慢连接超时报错)
+
+若换源后还是报错，请在包后面打一个空格加上--default-timeout=600，例如pip install ipykernel --default-timeout=600
