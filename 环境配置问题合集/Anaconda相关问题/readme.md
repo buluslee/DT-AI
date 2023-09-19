@@ -65,3 +65,12 @@ pip install -U jupyter 和 pip install -U jinja2
 先激活环境然后conda install nb_conda_kernels,完成后重启jupyter
 
 或者先激活环境，然后pip install ipykernel，然后输入python -m ipykernel install --user --name env_name ，env_name就是你自己的环境名
+
+## 8.anaconda或者vscode中输入torch.cuda.is_available()报错False
+<img width="324" alt="image" src="https://github.com/buluslee/DT-AI/assets/142234262/05130573-5099-4407-9ded-b9b0cb235740">
+
+## 解决办法
+激活对应环境pip list查看torch或者是pytroch是否为cpu版本，若是cpu版本请重新在官网下载其他gpu版本
+
+或者降低python版本到3.9，然后下载pytorch
+
