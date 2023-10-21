@@ -323,8 +323,7 @@ load_model_and_parallel - 87 - Load ckpt from ./checkpoints/bertMrc-4350/model.p
 
 # 讲在最后
 - 还是有一定的效果的，但是有些类别的效果很差，可能是该类数据量太少；<br>
-- 要预先知道文本是属于哪一个事件，这里可以先对文本进行多标签分类，然后得到分类结果，再构建QA进行推断；多标签分类可以去查看另一个仓库：<a href='https://github.com/taishan1994/pytorch_bert_multi_classification'>pytorch_bert_multi_classification</a><br>
-- [信息抽取三剑客：实体抽取、关系抽取、事件抽取](https://github.com/taishan1994/chinese_information_extraction)
+- 要预先知道文本是属于哪一个事件，这里可以先对文本进行多标签分类，然后得到分类结果，再构建QA进行推断；多标签分类可以去查看另一个仓库
 
 
 data数据集在我们DT百度网盘下载
