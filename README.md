@@ -5,7 +5,8 @@ DT-AI 是完整的人工智能学习路线，在这里包括了最初的深度�
 我们希望这里的资源能帮助您充分学习人工智能各个方向，若遇到问题请在github上提交issues
 
 
-![Uploading 手把手，带你AI从入门到精通.png…]()
+![Uploading image.png…]()
+
 
 
 
