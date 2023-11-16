@@ -4,11 +4,7 @@ DT-AI 是完整的人工智能学习路线，在这里包括了最初的深度�
 
 我们希望这里的资源能帮助您充分学习人工智能各个方向，若遇到问题请在github上提交issues
 
-
-![Uploading image.png…]()
-
-
-
+<img width="957" alt="屏幕截图 2023-11-16 210640" src="https://github.com/buluslee/DT-AI/assets/142234262/8e40333e-c239-40ae-b14b-944d35f693ce">
 
 # 简介
 
