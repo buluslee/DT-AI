@@ -1,4 +1,4 @@
-1. **下载Anaconda**：前往[Anaconda官方网站](https://www.anaconda.com/)，下载适用于你电脑版本的Anaconda安装程序。(我这里是windows故下载windows版本的)
+1. **下载Anaconda**：前往[Anaconda官方网站](https://www.anaconda.com/)下载适用于你电脑版本的Anaconda安装程序(我这里是windows故下载windows版本的)、或者前往清华源镜像站下载对应电脑版本的anaconda(https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)，
    ![image-20230819195812876](./img/image-20230819195812876.png)
 
 
