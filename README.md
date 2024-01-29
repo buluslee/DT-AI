@@ -38,10 +38,16 @@
 
 ## 1、机器徐学习三剑客：Numpy、Matplotlib、Pandas[机器学习三剑客](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%A0%E7%BB%9F%E7%AE%97%E6%B3%95%EF%BC%89/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%89%E5%89%91%E5%AE%A2)
 
+## 2、算法原理书籍推荐：线性回归、逻辑回归到感知机等等都有[算法原理书籍推荐](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%A0%E7%BB%9F%E7%AE%97%E6%B3%95%EF%BC%89/%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90)
+
+## 3、算法原理的实践源代码在这里：[算法原理实现](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%A0%E7%BB%9F%E7%AE%97%E6%B3%95%EF%BC%89/%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0)
+
+# 第三部分深度学习之CV具体包括的内容是这些：[深度学习之CV](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BCV)
+
+## 1、图像识别网络backbone这个模块包含了入门CNN的所有的基础网络从AlexNet到Resnet都有点击这个链接[图像识别backbone](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BCV/%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB%E7%BD%91%E7%BB%9CBackbone)
 
 
-深度学习
-
+## 2、目标检测包含YOLO5、7、8所有的模块以及添加attention的教程，点击这个链接[目标检测](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BCV/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B)
 ![tip](https://badgen.net/badge/python/3.1.6/green?icon=packagephobia)
 
 ![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=buluslee&show_icons=true&theme=tokyonight)
