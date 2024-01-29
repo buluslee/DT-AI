@@ -3,12 +3,16 @@
 
 DT-AI人工智能基础学习路线：
 包括[AI编程环境配置](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
-Anaconda安装与配置教程
 
-安装Anaconda
-创建和管理虚拟环境
-更换默认下载源
-PyTorch深度学习环境配置教程
+## 一、Anaconda安装与配置教程
+
+### 1.1 安装Anaconda
+
+### 1.2 创建和管理虚拟环境
+
+1.1.2 更换默认下载源
+
+1PyTorch深度学习环境配置教程
 
 在Anaconda环境中安装PyTorch
 配置GPU支持
