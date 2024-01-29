@@ -34,7 +34,7 @@
 ### 5.2节省C盘空间
 ### 通过这些教程，能够轻松地配置您的编程环境，包括Anaconda、PyTorch、VSCode和PyCharm。
 
-# 第二部分：机器学习（经典算法）
+# 第二部分：DT-AI 完整的人工智能学习路线之机器学习（传统算法）[机器学习（经典算法）](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%A0%E7%BB%9F%E7%AE%97%E6%B3%95%EF%BC%89)
 
 深度学习
 
