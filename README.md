@@ -36,7 +36,7 @@
 
 # 第二部分：DT-AI 完整的人工智能学习路线之机器学习（传统算法）：具体的内容是这些[机器学习（经典算法）](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%A0%E7%BB%9F%E7%AE%97%E6%B3%95%EF%BC%89)
 
-## 1、机器徐学习三剑客：Numpy、Matplotlib、Pandas[机器学习三剑客]（https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%A0%E7%BB%9F%E7%AE%97%E6%B3%95%EF%BC%89/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%89%E5%89%91%E5%AE%A2）
+## 1、机器徐学习三剑客：Numpy、Matplotlib、Pandas[机器学习三剑客](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%A0%E7%BB%9F%E7%AE%97%E6%B3%95%EF%BC%89/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%89%E5%89%91%E5%AE%A2)
 
 
 
