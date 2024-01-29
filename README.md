@@ -1,7 +1,5 @@
 
-# DT-AI 完整的人工智能学习路线
-
-## DT-AI人工智能基础学习路线之环境配置：具体的内容是这些  [AI编程环境配置](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
+#  第一部分：DT-AI 完整的人工智能学习路线之环境配置：具体的内容是这些  [AI编程环境配置](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
 
 ## 一、Anaconda安装与配置教程
 
