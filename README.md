@@ -1,5 +1,8 @@
 ![tip](https://badgen.net/badge/编程环境python/3.5以上/green?icon=packagephobia)
-![tip](https://badgen.net/badge/环境配置/vscode+Anaconda/green?icon=packagephobia)
+![tip](https://badgen.net/badge/环境配置/vscode+Anaconda/red?icon=packagephobia)
+![tip](https://badgen.net/badge/机器学习/经典算法的原理和实现/blue?icon=packagephobia)
+![tip](https://badgen.net/badge/深度学习/CV-CNN+YOLO系列/dark?icon=packagephobia)
+![tip](https://badgen.net/badge/深度学习/NLP基础+bert实战系列/dark?icon=packagephobia)
 #  第一部分：DT-AI 完整的人工智能学习路线之环境配置：具体的内容是这些  [AI编程环境配置](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
 
 ## 一、Anaconda安装与配置教程
