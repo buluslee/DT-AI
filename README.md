@@ -1,4 +1,4 @@
-
+![tip](https://badgen.net/badge/python/3.5以上/green?icon=packagephobia)
 #  第一部分：DT-AI 完整的人工智能学习路线之环境配置：具体的内容是这些  [AI编程环境配置](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
 
 ## 一、Anaconda安装与配置教程
@@ -48,7 +48,14 @@
 
 
 ## 2、目标检测包含YOLO5、7、8所有的模块以及添加attention的教程，点击这个链接[目标检测](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BCV/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B)
-![tip](https://badgen.net/badge/python/3.1.6/green?icon=packagephobia)
+
+# 第四部分深度学习之NLP具体包括的内容有这些：[深度学习之NLP](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BNLP)
+
+## 有关系抽取、文本生成、文本分类、实体识别、知识图谱、NLP基础
+
+
+
+
 
 ![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=buluslee&show_icons=true&theme=tokyonight)
 
