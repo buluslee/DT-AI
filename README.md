@@ -2,7 +2,7 @@
 # DT-AI 完整的人工智能学习路线
 
 DT-AI人工智能基础学习路线：
-包括编程环境配置
+包括[AI编程环境配置](https://github.com/buluslee/DT-AI/tree/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
 机器学习
 深度学习
 
