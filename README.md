@@ -58,4 +58,4 @@
 #### 有关系抽取、文本生成、文本分类、实体识别、知识图谱、NLP基础
 
 
-# 注意这个开源学习路线只是一个很基础的适合新手的版本，如果大家对[GNN](https://github.com/buluslee/GNN)、[ObjectDetection](https://github.com/buluslee/Object-Detection)|[Segmentation](https://github.com/buluslee/Segmentation)、[3DCv](https://github.com/buluslee/3D)、[LLM](https://github.com/buluslee/LLM)、[Kaggle](https://github.com/buluslee/kaggle)感兴趣的的话呢欢迎大家点开上面的链接关注哦！！！
+# 注意这个开源学习路线只是一个很基础的适合新手的版本，如果大家对[GNN](https://github.com/buluslee/GNN)、[ObjectDetection](https://github.com/buluslee/Object-Detection)、[Segmentation](https://github.com/buluslee/Segmentation)、[3DCv](https://github.com/buluslee/3D)、[LLM](https://github.com/buluslee/LLM)、[Kaggle](https://github.com/buluslee/kaggle)感兴趣的的话呢欢迎大家点开上面的链接关注哦！！！
